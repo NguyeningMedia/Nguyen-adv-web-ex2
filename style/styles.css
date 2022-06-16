@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+
+* {
+    box-sizing:border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    font: .8rem/1.5rem 'Open Sans', sans-serif;
+}
+
+h1 {
+    font: 2.0rem/1.5rem "Times New Roman", Times, serif;
+    font-weight:800
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex-no-wrap {
+    flex-wrap:nowrap;
+}
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.center {
+    justify-content: center;
+}
+
+.align-center {
+    align-content: center;
+}
+
+.center-items {
+    align-items: center;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+strong{ 
+    color:#0070bb;
+}
+
+#text-center {
+    text-align: center;
+}
+
+#black {
+    color: black;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+#header {
+    background:url(../image/header.png)no-repeat;
+    background-size:cover; 
+    background-position: center;
+
+}
+
+.logo {
+    padding: 8rem 2rem;
+}
+
+.logo img {
+    width: 20rem;
+
+}
+
+/* nav */
+
+.navi {
+    display: none;
+}
+
+ .nav {
+        margin: 1rem auto 0;
+    }
+    
+.info {
+        text-align: end;
+        color: white;
+        background: black;
+    }
+    
+  .info a:link,  .info a:visited {
+    color: white;
+}
+
+  .info a:hover,  .info a:active {
+    color: #0070bb;
+      text-decoration: underline;
+}
+      
+nav ul {
+    list-style: none;
+    text-transform: uppercase;
+    font:600 1rem 'Open Sans', sans-serif;
+    color: #0070bb;
+}
+    .nav-bar {
+        display: flex;
+        align-items: flex-end;
+    }
+    
+     nav a {
+        margin:0 .8rem;
+    }
+    
+    nav a:link,  nav a:visited {
+    text-decoration: none;
+    color: #0070bb;
+}
+
+nav a:hover, nav a:active {
+    color: black;
+    text-decoration: underline;
+    }
+
+
+/* ad1 */
+
+#ad {
+    background:url(../image/bgAbout.jpg)no-repeat;
+    background-size:cover; 
+    background-position: center;
+    color: white;
+}
+
+.black-background {
+    background: rgba(0,0,0,.6);
+    width:80%;
+    padding: 1rem .5rem 2rem;
+    margin: 3rem auto;
+    text-align: center;
+}
+#ad a, #ad a:visited{
+    color:white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: .8rem 1.5rem;
+    font-size: .5rem;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+
+}
+
+/* about */
+
+.about {
+    background-color: #e8ecef;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+}
+
+.about h1 {
+    text-align: center;
+    color: #0070bb;
+}
+
+.icon {
+    width: 40%;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    width: 6rem;
+}
+
+.icon-info {
+    width: 60%;
+}
+
+.mob-off {
+    display: none;
+    background-color: #e8ecef;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+}
+
+.mob-off h1 {
+        text-align: center;
+        color: #0070bb;
+    }
+
+#icon-off {
+    display: none;
+}
+
+
+
+.icon1 {
+        width: 25%;
+        padding: 1rem;
+    }
+
+/* ad2 */
+
+#ad2 {
+    background:url(../image/bgad2.png)no-repeat;
+    background-size:cover; 
+    background-position: center;
+    color: white;
+}
+
+
+/* clients */
+
+.box {
+    width: 33%;
+    text-align: center;
+    border: 2px solid #0070bb;
+    color: #0070bb;
+    padding: .2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blue {
+    background: #0070bb;
+}
+
+#blue strong {
+    color: white;
+}
+
+.clients {
+    padding: 1rem 1rem;
+    background:#e8f2f8;
+    margin: 0 auto;
+}
+
+.clients img {
+    width: 40%;
+    padding: .5rem;
+}
+
+.contact {
+    margin: 0 0 2rem 0;
+    padding: 0 1rem;
+}
+
+.contact a, .contact a:visited{
+    color:#0070bb;
+    text-decoration: none;
+    border: 1px solid #0070bb;
+    padding: .5rem .8rem;
+    font-size: .5rem;
+    font-weight:bolder;
+    text-transform: uppercase;
+
+}
+.intro {
+    display: none;
+    margin-top: 2rem;
+}
+
+.welcome {
+    padding: 2rem 0 2rem 2rem;
+}
+
+.welcome h1 {
+    color: #0070bb;
+}
+
+#line {
+    background:url(../image/line.png)no-repeat;
+    background-position: center;
+    padding: 5rem;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.fran {
+    padding: 2rem 10rem 6rem;
+    margin: 0 auto;
+}
+
+.fran p {
+    padding: 0 2rem;
+}
+
+.arrows img {
+    height: 1rem;
+}
+
+.timeline {
+    display: none;
+}
+
+/* Media Queries */
+
+@media (min-width: 576px) /* for mobile */{
+.icon img {
+    width: 8rem;
+}   
+    .black-background {
+             width: 25rem;
+}
+}
+
+@media (min-width:768px) /* for tablets */{
+    .about {
+        display: none;
+    }
+ 
+        .mob-off {
+        display: block;
+    }
+    
+ 
+    
+    .icon1 {
+        width: 33%;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    .icon1 img{
+        width: 8rem;
+        height: 8rem;
+
+    }
+    
+    .clients {
+        margin: 2rem 0;
+    }
+    
+    .clients img {
+    width: 25%;
+}
+    
+    
+
+@media (min-width: 992px) /* for laptops */{
+    .container {
+        width: 85%;
+    }
+    
+    body {
+        font-size: 1rem;
+    }
+    
+    .navi {
+        display: block;
+    }
+    
+    #ad, #ad2 {
+        padding: 2rem 0;
+    }
+    
+    .black-background {
+        margin-left: auto;
+        margin-right: 0;
+}
+
+    .intro {
+        display: flex;
+    }
+    
+    
+    
+    #icon-off {
+        display: block;
+    }
+    
+    .tabs {
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+    .contact {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 4rem;
+    }
+    
+    .contact p {
+        padding: 0 1rem;
+    }
+    
+   .clients img {
+    height: 10rem;
+}
+    
+}
+
+
+
+@media (min-width: 1200px) /* for large devices */{
+    .timeline {
+        display: block;
+    }
+    
+    
+     #ad, #ad2 {
+        padding: 5rem 0;
+    }
+    
+.logo img {
+    width: 30rem;
+
+}
+    
